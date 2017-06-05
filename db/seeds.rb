@@ -1,12 +1,14 @@
+
 require_relative ('../models/customer')
 require_relative ('../models/films')
 require_relative ('../models/ticket')
+require('pry-byebug')
 
-require('pry_byebug')
+
 
 Ticket.delete_all()
 Film.delete_all()
-customer.delete_all()
+Customer.delete_all()
 
 customer1 = Customer.new({ 'name' => 'Tony', 'funds' => 20})
 customer2 = Customer.new({ 'Henry' => 'Henry', 'funds' => 30})
