@@ -16,8 +16,8 @@ customer2 = Customer.new({ 'Henry' => 'Henry', 'funds' => 30})
 customer1.save()
 customer2.save()
 
-film1 = Film.new({'title' => '', 'price' => 6})
-film2 = Film.new({'title' => '', 'price' => 7})
+film1 = Film.new({'title' => 'Lethal Weapon', 'price' => 6})
+film2 = Film.new({'title' => 'Alien', 'price' => 7})
 
 film1.save()
 film2.save()
